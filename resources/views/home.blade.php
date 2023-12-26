@@ -1,0 +1,15 @@
+{{-- @section('title', '| Home') --}}
+@extends('FrontEnd.app')
+@section('FrontEndContent')
+    @include('FComponent.carousel')
+    @include('FComponent.booking')
+    @include('FComponent.about')
+    @include('FComponent.feature')
+    @include('FComponent.destination')
+    @include('FComponent.services')
+    @include('FComponent.packages')
+    @include('FComponent.registration')
+    @include('FComponent.team')
+    @include('FComponent.tastimonial')
+    @include('FComponent.blog')
+@endsection
